@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fffac4;
+}
+
+h1 {
+    font-family: Roboto;
+    color: #191970;
+}
+
+p {
+    font-family: 'Exo 2';
+    color: #22038F;
+}
+
+.title {
+    height: 5%;
+
+}
+
+#mapid {
+    height: 95%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    html,
+    body {}
+
+    .title {
+        height: 15%;
+    }
+
+    #mapid {
+        height: 85%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    html,
+    body {}
+
+    .title {
+        height: 15%;
+    }
+
+    #mapid {
+        height: 90%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    html,
+    body {}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    html,
+    body {}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    html,
+    body {}
+}
